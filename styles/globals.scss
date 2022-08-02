@@ -24,3 +24,13 @@ a {
     background: black;
   }
 }
+
+button {
+  cursor: pointer;
+  padding: .5rem 1rem;
+  background: none;
+  border: 1px solid black;
+  &:hover{
+     background: #ff71ff33;
+  }
+}
